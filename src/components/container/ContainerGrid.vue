@@ -3,7 +3,7 @@
     <v-layout row wrap   >
       <v-flex xs12>
         <v-card >
-          <scroll></scroll>
+          <!-- <scroll></scroll> -->
         </v-card>
       </v-flex>
       <v-flex xs12>
@@ -40,11 +40,11 @@
   </v-container>
 </template>
 <script>
-import Scroll from 'comp/scroll/scroll'
+// import Scroll from 'comp/scroll/scroll'
 
 export default {
-  components:{
-    'scroll':Scroll
-  }
+  // components:{
+  //   'scroll':Scroll
+  // }
 }
 </script>
